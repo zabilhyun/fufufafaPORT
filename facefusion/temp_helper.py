@@ -18,7 +18,7 @@ def move_temp_file(file_path : str, move_path : str) -> bool:
 
 def get_temp_directory_path(file_path : str) -> str:
 	temp_file_name, _ = os.path.splitext(os.path.basename(file_path))
-	return os.path.join(state_manager.get_item('temp_path'), 'facefusion', temp_file_name)
+	return os.path.join(state_manager.get_item('temp_path'), 'fufufafaPORT', temp_file_name)
 
 
 def create_temp_directory(file_path : str) -> bool:
